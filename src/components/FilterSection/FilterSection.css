@@ -1,0 +1,5 @@
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}

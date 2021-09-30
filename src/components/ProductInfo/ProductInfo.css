@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+
+.product-configuration, .product-description{
+    margin-bottom: 1rem;
+}
+
+.product-configuration > ul, .product-price  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.product-configuration > ul > li {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+
+.product-price{
+    height: 8rem;
+}

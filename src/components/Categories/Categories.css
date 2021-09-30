@@ -1,0 +1,42 @@
+.hide{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.categories-list{
+    display: flex;
+    justify-content: center;
+    animation: growDown 300ms ease-in-out forwards;
+}
+
+.categories-list > li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.categories-list > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.categories-list > li > a:hover{
+    color: grey;
+}
+
+@keyframes growDown {
+    0% {
+      transform: scaleY(0)
+    }
+    80% {
+      transform: scaleY(1.1)
+    }
+    100% {
+      transform: scaleY(1)
+    }
+  }

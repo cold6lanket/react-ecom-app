@@ -1,0 +1,55 @@
+.filter-price{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-price-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.filter-price-types{
+    margin: 0;
+    padding: 0;
+}
+
+.filter-price-types li {
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.filter-label{
+    position: relative;
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 3rem;
+}
+
+.filter-label > input {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    height: 1.3rem;
+    width: 1.3rem;
+    transform: translate(0, -50%);
+}
+
+.lock{
+    pointer-events: none;
+    opacity: 0.6;
+    font-weight: 400;
+}
